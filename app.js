@@ -5,7 +5,7 @@ const app = express();
 const cors = require("cors");
 dotenv.config();
 const corsOptions = {
-  origin: ["https://task-manager-bice-six.vercel.app/"],
+  origin: ["https://task-manager-bice-six.vercel.app"],
   optionsSuccessStatus: 200,
   credentials: true,
 };
